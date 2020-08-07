@@ -1,35 +1,58 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#2e86de',
+    backgroundColor: '#000',
+  },
+
+  sky: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 900,
+    height: 500,
+    borderBottomLeftRadius: 1000,
+    borderBottomRightRadius: 1000,
+    backgroundColor: '#192a56',
+  },
+
+  image: {
+    backgroundColor: '#f5f6fa',
+    borderRadius: 100,
+    width: 150,
+    height: 150,
   },
 
   title: {
-    margin: 10,
-    fontSize: 20,
-    fontWeight: 'bold',
     color: '#f5f6fa',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: 20,
+    fontSize: 20,
   },
 
   description: {
-    margin: 10,
-    textAlign: 'center',
-    fontSize: 15,
     color: '#c8d6e5',
+    textAlign: 'center',
+    margin: 10,
+    fontSize: 15,
+  },
+
+  buttonContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 
   button: {
-    margin: 10,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#2f3640',
+    margin: 10,
     width: 100,
     height: 30,
     borderRadius: 50,
-    backgroundColor: '#2f3640',
   },
 
   buttonText: {
