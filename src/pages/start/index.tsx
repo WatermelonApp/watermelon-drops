@@ -1,15 +1,15 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
 export default function Start() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hi, you're welcome to Watermelon Drop!</Text>
+      <Text style={styles.title}>Hi, welcome to Watermelon Drop!</Text>
       <Text style={styles.description}>
-        Below, you can browse some components that we have made available to
-        you.
+        Below, you can browse some components that are available for your to
+        use.
       </Text>
       <Text style={styles.description}>Please, enjoy!</Text>
 
